@@ -13,6 +13,7 @@ import { DividerComponent } from './my-jumbo/divider.component';
 import { FooterTxtComponent } from './footer-txt/footer-txt.component';
 import { FirstFooterComponent } from './footer-txt/first-footer.component';
 import { SecondFooterComponent } from './footer-txt/second-footer.component';
+import { DirectivesComponent } from './directives/directives.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { SecondFooterComponent } from './footer-txt/second-footer.component';
     DividerComponent,
     FooterTxtComponent,
     FirstFooterComponent,
-    SecondFooterComponent
+    SecondFooterComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule
