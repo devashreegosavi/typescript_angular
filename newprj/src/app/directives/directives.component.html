@@ -1,3 +1,10 @@
-<p>
-  directives works!
-</p>
+<div class="row">
+  <div class="col-md-12" [ngClass]="{card : false, jumbotron: true  }">
+    <h1 class="text-muted">Welcome to site</h1>    
+  </div>
+</div>
+<div class="row" [ngStyle]="myStl">
+  <div class="col-md-12" [ngStyle]="{border : '1px solid red'}">
+    <h1>directive examples</h1>
+  </div>
+</div>

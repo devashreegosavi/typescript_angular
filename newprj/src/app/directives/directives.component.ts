@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectivesComponent implements OnInit {
 
+  myStl = {
+    border : '1px solid red'
+  }
   constructor() { }
 
   ngOnInit() {
