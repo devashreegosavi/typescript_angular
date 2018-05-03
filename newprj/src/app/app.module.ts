@@ -15,6 +15,7 @@ import { FirstFooterComponent } from './footer-txt/first-footer.component';
 import { SecondFooterComponent } from './footer-txt/second-footer.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { SizeMakerDirective } from './directives/size-maker.directive';
+import { LocalRefComponent } from './local-ref/local-ref.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { SizeMakerDirective } from './directives/size-maker.directive';
     FirstFooterComponent,
     SecondFooterComponent,
     DirectivesComponent,
-    SizeMakerDirective
+    SizeMakerDirective,
+    LocalRefComponent
   ],
   imports: [
     BrowserModule
