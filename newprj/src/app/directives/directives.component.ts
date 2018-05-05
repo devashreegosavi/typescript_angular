@@ -11,6 +11,11 @@ export class DirectivesComponent implements OnInit {
   myStl = {
     border : '1px solid red'
   }
+  arrBirds: any [] = [
+    { name: 'Bells Sparrow' },
+    { name: 'Mourning Dove'},
+    { name: 'Bald Eagle' }
+  ];
   constructor() { }
 
   ngOnInit() {
