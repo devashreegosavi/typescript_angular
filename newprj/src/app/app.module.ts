@@ -18,6 +18,7 @@ import { SizeMakerDirective } from './directives/size-maker.directive';
 import { LocalRefComponent } from './local-ref/local-ref.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { NavbardemoDirective } from './directives/navbardemo.directive';
+import { TestdirectiveDirective } from './directives/testdirective.directive';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { NavbardemoDirective } from './directives/navbardemo.directive';
     SizeMakerDirective,
     LocalRefComponent,
     HighlightDirective,
-    NavbardemoDirective
+    NavbardemoDirective,
+    TestdirectiveDirective
   ],
   imports: [
     BrowserModule
