@@ -20,7 +20,8 @@ import { HighlightDirective } from './directives/highlight.directive';
 import { NavbardemoDirective } from './directives/navbardemo.directive';
 import { TestdirectiveDirective } from './directives/testdirective.directive';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
-
+import { CstStrDirective } from './directives/cst-str.directive';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -41,10 +42,12 @@ import { LifecycleComponent } from './lifecycle/lifecycle.component';
     HighlightDirective,
     NavbardemoDirective,
     TestdirectiveDirective,
-    LifecycleComponent
+    LifecycleComponent,
+    CstStrDirective
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
