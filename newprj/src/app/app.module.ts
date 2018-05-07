@@ -19,6 +19,7 @@ import { LocalRefComponent } from './local-ref/local-ref.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { NavbardemoDirective } from './directives/navbardemo.directive';
 import { TestdirectiveDirective } from './directives/testdirective.directive';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { TestdirectiveDirective } from './directives/testdirective.directive';
     LocalRefComponent,
     HighlightDirective,
     NavbardemoDirective,
-    TestdirectiveDirective
+    TestdirectiveDirective,
+    LifecycleComponent
   ],
   imports: [
     BrowserModule
