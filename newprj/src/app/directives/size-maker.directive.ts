@@ -23,11 +23,13 @@ export class SizeMakerDirective {
   mouseIn() {
     this.sz = '350px'
     this.rdBrd = '3px solid green'
+    window.alert("hover")
   }
 
   @HostListener('mouseleave')
   mouseOut() {
     this.sz = '300px'
     this.rdBrd = '3px solid blue'
+    window.alert("hover");
   }
 }
