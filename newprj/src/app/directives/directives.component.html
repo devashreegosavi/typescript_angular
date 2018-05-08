@@ -63,7 +63,7 @@
       <input type="text" [ckSizer]="'500px'">
     </div>
   </ng-template>
-
+<!--
   <div class="row" *ngFor="let mb of mobs">
     <div class="col-md-12">
       {{mb.val}}
@@ -90,4 +90,17 @@
         <div *ngSwitchDefault >No Number</div>
       </div>
     </div>
+  </div>-->
+
+  <div class="card card-block" appCardHover>
+    testing
   </div>
+
+  <input type="button" on-click='togglevisibilty()' value="Show Menu">  
+<div *ngIf='showdiv'> 
+      <ul class="list-group">
+      <li class="list-group-item"><a href="#">First item</a></li>
+      <li class="list-group-item"><a href="#">Second item</a></li>
+      <li class="list-group-item"><a href="#">Third item</a></li>
+    </ul>
+</div> {{showdiv==true?sampletext:""}} 

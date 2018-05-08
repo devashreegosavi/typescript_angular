@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectivesComponent implements OnInit {
 
- 
+  showdiv = false;  
+  togglevisibilty(): void {  
+      this.showdiv = !this.showdiv;  
+  }  
+  
   myStl = {
     border : '1px solid red'
   }

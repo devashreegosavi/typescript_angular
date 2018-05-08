@@ -22,6 +22,8 @@ import { TestdirectiveDirective } from './directives/testdirective.directive';
 import { LifecycleComponent } from './lifecycle/lifecycle.component';
 import { CstStrDirective } from './directives/cst-str.directive';
 import { FormsModule } from '@angular/forms';
+import { CardHoverDirective } from './directives/card-hover.directive';
+import { ListingitDirective } from './directives/listingit.directive';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { FormsModule } from '@angular/forms';
     NavbardemoDirective,
     TestdirectiveDirective,
     LifecycleComponent,
-    CstStrDirective
+    CstStrDirective,
+    CardHoverDirective,
+    ListingitDirective
   ],
   imports: [
     BrowserModule,
