@@ -9,7 +9,7 @@ export class ListingitDirective {
   constructor(private el: ElementRef,
     private renderer: Renderer) { }
 
-    @Input('appListingit')
+  @Input('appListingit')
   @HostListener('mouseenter')
   mouseIn() {
     this.showdiv = !this.showdiv;  
